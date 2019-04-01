@@ -57,6 +57,13 @@ usethis::pr_fetch(1)
 
 You are now on the PR branch:
 
-``` r
-system("git status")
+``` bash
+git status
 ```
+
+    ## On branch nbrgraphs-patch-1
+    ## Your branch is ahead of 'nbrgraphs/patch-1' by 2 commits.
+    ##   (use "git push" to publish your local commits)
+    ## 
+    ## nothing to commit, working tree clean
+
