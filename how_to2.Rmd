@@ -25,7 +25,7 @@ git2r::checkout(branch = "nbrgraphs-patch-1")
 usethis::pr_push()
 ```
 
-We'll wrap with `pr_finish()`. (I'm terse here since **usethis** functions speak for themselves...)
+We'll wrap up with `pr_finish()`. (I'm terse here since **usethis** functions speak for themselves...)
 
 ```{r}
 usethis::pr_finish()
