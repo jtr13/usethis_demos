@@ -42,7 +42,7 @@ git2r::pull()
 
 Look for the pull request number in the [list of pull
 requests](https://github.com/jtr13/usethis_demos/pulls). We see that the
-[pull request we want](https://github.com/jtr13/springishere/pull/1) is
+[pull request we want](https://github.com/jtr13/usethis_demos/pull/1) is
 number 1.
 
 ``` r
@@ -67,3 +67,9 @@ git status
     ## 
     ## nothing to commit, working tree clean
 
+<<<<<<< Updated upstream
+=======
+Make changes as desired, then save and commit them.
+
+Now you’re ready for [Part 2](how_to2.md).
+>>>>>>> Stashed changes
