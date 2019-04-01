@@ -3,3 +3,5 @@
 # I'm switching to Python
 
 # April fools!!
+
+emo::ji("smile")
