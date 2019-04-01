@@ -11,8 +11,10 @@ and error prone*. Note that the preferred workflow is to ask the person
 who submitted the changes to make the modifications that you request.
 You would only do this editing yourself, following the steps below, in a
 situation in which the contributor is not responding, or does not have
-the skills to make the changes you need. It will only work if the contributor has checked the “Allow edits from maintainers.”
-box in their pull request.
+the skills to make the changes you need. It will only work if the
+“Allow edits from maintainers” box is checked when the pull request is
+made. This is the default and is yet more reasons why pull requests are
+most natural from a non-`master` branch.
 
 #### Install **usethis**
 
@@ -25,7 +27,7 @@ devtools::install_github("r-lib/usethis")
 
     ## Skipping install of 'usethis' from a github remote, the SHA1 (fb570489) has not changed since last install.
     ##   Use `force = TRUE` to force installation
-
+contributor
 #### Open local version of repo
 
 Open the local project for the repo and pull changes, either by clicking
