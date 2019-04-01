@@ -13,7 +13,7 @@ You would only do this editing yourself, following the steps below, in a
 situation in which the contributor is not responding, or does not have
 the skills to make the changes you need. It will only work if the
 “Allow edits from maintainers” box is checked when the pull request is
-made. This is the default and is yet more reasons why pull requests are
+made. This is the default and is yet another reason why pull requests are
 most natural from a non-`master` branch.
 
 #### Install **usethis**
