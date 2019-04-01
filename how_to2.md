@@ -17,7 +17,7 @@ usethis::pr_push()
     ## ✔ Pushing local 'nbrgraphs-patch-1' branch to 'nbrgraphs:patch-1'
     ## ✔ View PR at 'https://github.com/jtr13/usethis_demos/pull/1'
 
-We’ll wrap with `pr_finish()`. (I’m terse here since **usethis**
+We’ll wrap up with `pr_finish()`. (I’m terse here since **usethis**
 functions speak for themselves…)
 
 ``` r
