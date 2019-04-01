@@ -24,7 +24,11 @@ Use the dev
 devtools::install_github("r-lib/usethis")
 ```
 
+<<<<<<< Updated upstream
     ## Skipping install of 'usethis' from a github remote, the SHA1 (169b556e) has not changed since last install.
+=======
+    ## Skipping install of 'usethis' from a github remote, the SHA1 (fb570489) has not changed since last install.
+>>>>>>> Stashed changes
     ##   Use `force = TRUE` to force installation
 
 #### Open local version of repo
@@ -51,6 +55,12 @@ usethis::pr_fetch(1)
 
     ## ✔ Setting active project to '/Users/JoyceRobbins/usethis_demos'
     ## ✔ Checking out PR 'jtr13/usethis_demos/#1' (@nbrgraphs): 'Add line'
+<<<<<<< Updated upstream
+=======
+    ## ✔ Adding remote 'nbrgraphs' as 'https://github.com/nbrgraphs/usethis_demos.git'
+    ## ✔ Creating local branch 'nbrgraphs-patch-1'
+    ## ✔ Setting upstream tracking branch for 'nbrgraphs-patch-1' to 'nbrgraphs/patch-1'
+>>>>>>> Stashed changes
     ## ✔ Switching to branch 'nbrgraphs-patch-1'
 
 #### Fix the PR
@@ -62,12 +72,19 @@ git status
 ```
 
     ## On branch nbrgraphs-patch-1
+<<<<<<< Updated upstream
     ## Your branch is ahead of 'nbrgraphs/patch-1' by 2 commits.
     ##   (use "git push" to publish your local commits)
+=======
+    ## Your branch is up to date with 'nbrgraphs/patch-1'.
+>>>>>>> Stashed changes
     ## 
     ## nothing to commit, working tree clean
 
 Make changes as desired, then save and commit them.
 
 Now you’re ready for [Part 2](how_to2.md).
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
