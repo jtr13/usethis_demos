@@ -50,4 +50,4 @@ git status
 
 Make changes as desired, then save and commit them.
 
-Now you're ready for [Part 2](how_to2.md).
+Now we're ready for [Part 2](how_to2.md).
