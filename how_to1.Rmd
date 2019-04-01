@@ -37,4 +37,11 @@ Look for the pull request number in the [list of pull requests](https://github.c
 usethis::pr_fetch(1)
 ```
 
+#### Fix the PR
+
+You are now on the PR branch:
+
+```{r}
+system("git status")
+```
 
