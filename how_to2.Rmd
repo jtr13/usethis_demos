@@ -1,5 +1,5 @@
 ---
-title: "How to edit a pull request locally, part 1"
+title: "How to edit a pull request locally, part 2"
 author: "Joyce Robbins"
 date: "4/1/2019"
 output: github_document
@@ -12,42 +12,31 @@ git2r::commit(message = "need to commit before rendering")
 ```
 
 
-#### Context
+#### Push changes
 
-This is a demo of using **usethis** functions to modify a pull request locally. Without these functions, the process is *much more complicated and error prone*. Note that the preferred workflow is to ask the person who submitted the changes to make the modifications that you request. You would only do this editing yourself, following the steps below, in a situation in which the contributor is not responding, or does not have the skills to make the changes you need. It will only work (need to test this) if the contributor has checked the "Allow edits from maintainers." box in their pull request.
+Now that we've completed making edits to the PR, and have saved and committed them, we will push them to GitHub:
 
-#### Install **usethis**
+```{r, include = FALSE}
+checkout(branch = "nbrgraphs-patch-1")
+```
 
-Use the dev version:
 
 ```{r}
-devtools::install_github("r-lib/usethis")
+usethis::pr_push()
 ```
 
-#### Open local version of repo
-
-Open the local project for the repo and pull changes, either by clicking on the PULL button in RStudio or as follows:
+We'll wrap with `pr_finish()`. (I'm terse here since **usethis** functions speak for themselves...)
 
 ```{r}
-git2r::pull()
+use_this::pr_finish()
 ```
 
-#### Find and fetch the pull request
-
-Look for the pull request number in the [list of pull requests](https://github.com/jtr13/usethis_demos/pulls). We see that the [pull request we want](https://github.com/jtr13/usethis_demos/pull/1) is number 1.
+Finally, if desired, you can delete the remote that was created:
 
 ```{r}
-usethis::pr_fetch(1)
+git2r::remotes()
+git2r::remote_remove(name = "nbrgraphs")
+git2r::remotes()
 ```
 
-#### Fix the PR
-
-You are now on the PR branch:
-
-```{bash}
-git status
-```
-
-Make changes as desired, then save and commit them.
-
-Now you're ready for [Part 2](how_to2.md).
+And we are done! Our edits have been [added as a commit to the pull request](https://github.com/jtr13/usethis_demos/pull/1).  We can leave the pull request open for additional edits / reviews or go to GitHub and merge it.
