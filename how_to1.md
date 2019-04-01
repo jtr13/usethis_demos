@@ -51,7 +51,12 @@ usethis::pr_fetch(1)
 
     ## ✔ Setting active project to '/Users/JoyceRobbins/usethis_demos'
     ## ✔ Checking out PR 'jtr13/usethis_demos/#1' (@nbrgraphs): 'Add line'
-    ## ✔ Adding remote 'nbrgraphs' as 'https://github.com/nbrgraphs/usethis_demos.git'
-    ## ✔ Creating local branch 'nbrgraphs-patch-1'
-    ## ✔ Setting upstream tracking branch for 'nbrgraphs-patch-1' to 'nbrgraphs/patch-1'
     ## ✔ Switching to branch 'nbrgraphs-patch-1'
+
+#### Fix the PR
+
+You are now on the PR branch:
+
+``` r
+system("git status")
+```

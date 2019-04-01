@@ -41,7 +41,7 @@ usethis::pr_fetch(1)
 
 You are now on the PR branch:
 
-```{r}
-system("git status")
+```{bash}
+git status
 ```
 
