@@ -67,9 +67,7 @@ git status
     ## 
     ## nothing to commit, working tree clean
 
-<<<<<<< Updated upstream
-=======
 Make changes as desired, then save and commit them.
 
 Now you’re ready for [Part 2](how_to2.md).
->>>>>>> Stashed changes
+
