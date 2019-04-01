@@ -17,7 +17,7 @@ git2r::commit(message = "need to commit before rendering")
 Now that we've completed making edits to the PR, and have saved and committed them, we will push them to GitHub:
 
 ```{r, include = FALSE}
-checkout(branch = "nbrgraphs-patch-1")
+git2r::checkout(branch = "nbrgraphs-patch-1")
 ```
 
 
