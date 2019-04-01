@@ -27,7 +27,7 @@ devtools::install_github("r-lib/usethis")
 
     ## Skipping install of 'usethis' from a github remote, the SHA1 (fb570489) has not changed since last install.
     ##   Use `force = TRUE` to force installation
-contributor
+
 #### Open local version of repo
 
 Open the local project for the repo and pull changes, either by clicking
