@@ -5,14 +5,13 @@ Joyce Robbins
 
 #### Context
 
-This is a demo of using **usethis** functions to modify a pull request
+Here we employ **usethis** functions to modify a pull request
 locally. Without these functions, the process is *much more complicated
 and error prone*. Note that the preferred workflow is to ask the person
 who submitted the changes to make the modifications that you request.
 You would only do this editing yourself, following the steps below, in a
 situation in which the contributor is not responding, or does not have
-the skills to make the changes you need. It will only work (need to test
-this) if the contributor has checked the “Allow edits from maintainers.”
+the skills to make the changes you need. It will only work if the contributor has checked the “Allow edits from maintainers.”
 box in their pull request.
 
 #### Install **usethis**

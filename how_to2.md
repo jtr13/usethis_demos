@@ -28,7 +28,7 @@ usethis::pr_finish()
     ## ✔ Pulling changes from GitHub source repo 'origin/master'
     ## ✔ Deleting local 'nbrgraphs-patch-1' branch
 
-Finally, if desired, you can delete the remote that was created:
+Finally, if desired, we can delete the remote that was created:
 
 ``` r
 git2r::remotes()

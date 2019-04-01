@@ -31,7 +31,7 @@ We'll wrap with `pr_finish()`. (I'm terse here since **usethis** functions speak
 usethis::pr_finish()
 ```
 
-Finally, if desired, you can delete the remote that was created:
+Finally, if desired, we can delete the remote that was created:
 
 ```{r}
 git2r::remotes()
