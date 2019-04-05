@@ -23,7 +23,8 @@ most natural from a non-`master` branch.
 
 Use the dev version:
 
-```{r}
+```{r, eval = FALSE}
+## not run
 devtools::install_github("r-lib/usethis")
 ```
 
