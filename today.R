@@ -6,4 +6,4 @@
 
 emo::ji("smile")
 
-emo::ji("rain")
+emo::ji("snow")
