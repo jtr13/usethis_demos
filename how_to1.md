@@ -6,6 +6,7 @@ Joyce Robbins
 #### Context
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Here we employ **usethis** functions to modify a pull request
 locally. Without these functions, the process is *much more complicated
 and error prone*. Note that the preferred workflow is to ask the person
@@ -30,6 +31,8 @@ devtools::install_github("r-lib/usethis")
     ##   Use `force = TRUE` to force installation
 
 =======
+=======
+>>>>>>> Stashed changes
 Here we employ **usethis** functions to modify a pull request locally.
 Without these functions, the process is *much more complicated and error
 prone*. Note that the preferred workflow is to ask the person who
@@ -50,6 +53,9 @@ Use the dev version:
 devtools::install_github("r-lib/usethis")
 ```
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 #### Open local version of repo
 
@@ -76,10 +82,16 @@ usethis::pr_fetch(1)
     ## ✔ Setting active project to '/Users/JoyceRobbins/usethis_demos'
     ## ✔ Checking out PR 'jtr13/usethis_demos/#1' (@nbrgraphs): 'Add line'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     ## ✔ Adding remote 'nbrgraphs' as 'https://github.com/nbrgraphs/usethis_demos.git'
     ## ✔ Creating local branch 'nbrgraphs-patch-1'
     ## ✔ Setting upstream tracking branch for 'nbrgraphs-patch-1' to 'nbrgraphs/patch-1'
 =======
+>>>>>>> Stashed changes
+=======
+    ## ✔ Adding remote 'nbrgraphs' as 'https://github.com/nbrgraphs/usethis_demos.git'
+    ## ✔ Creating local branch 'nbrgraphs-patch-1'
+    ## ✔ Setting upstream tracking branch for 'nbrgraphs-patch-1' to 'nbrgraphs/patch-1'
 >>>>>>> Stashed changes
     ## ✔ Switching to branch 'nbrgraphs-patch-1'
 
@@ -95,12 +107,21 @@ git status
     ## Your branch is up to date with 'nbrgraphs/patch-1'.
     ## 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     ## nothing to commit, working tree clean
 =======
     ## Untracked files:
     ##   (use "git add <file>..." to include in what will be committed)
     ## 
     ##  how_to2.html
+    ## 
+    ## nothing added to commit but untracked files present (use "git add" to track)
+>>>>>>> Stashed changes
+=======
+    ## Untracked files:
+    ##   (use "git add <file>..." to include in what will be committed)
+    ## 
+    ##  README.html
     ## 
     ## nothing added to commit but untracked files present (use "git add" to track)
 >>>>>>> Stashed changes
