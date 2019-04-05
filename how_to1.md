@@ -41,26 +41,17 @@ git2r::pull()
 Look for the pull request number in the [list of pull
 requests](https://github.com/jtr13/usethis_demos/pulls). We see that the
 [pull request we want](https://github.com/jtr13/usethis_demos/pull/1) is
-<<<<<<< Updated upstream
 number
     1.
-=======
-number 1.
->>>>>>> Stashed changes
 
 ``` r
 usethis::pr_fetch(1)
 ```
 
-<<<<<<< Updated upstream
     ## ✔ Checking out PR 'jtr13/usethis_demos/#1' (@nbrgraphs): 'Add line'
     ## ✔ Adding remote 'nbrgraphs' as 'https://github.com/nbrgraphs/usethis_demos.git'
     ## ✔ Creating local branch 'nbrgraphs-patch-1'
     ## ✔ Setting upstream tracking branch for 'nbrgraphs-patch-1' to 'nbrgraphs/patch-1'
-=======
-    ## ✔ Setting active project to '/Users/JoyceRobbins/usethis_demos'
-    ## ✔ Checking out PR 'jtr13/usethis_demos/#1' (@nbrgraphs): 'Add line'
->>>>>>> Stashed changes
     ## ✔ Switching to branch 'nbrgraphs-patch-1'
 
 #### Fix the PR
