@@ -12,7 +12,7 @@ Notes for contributors on rendering `.Rmd` files:
 
 1. Knit `how_to1.Rmd` (any uncommitted files will be committed during render)
 
-1. Make a change, save and commit.  Leave `how_to1.md` as is.
+1. Make a change, save and commit.  Do NOT save and commit `how_to1.md`.
 
 1. `git2r::stash()`
 
@@ -20,6 +20,6 @@ Notes for contributors on rendering `.Rmd` files:
 
 1. `git2r::stash_pop()`  (`how_to1.md` should appear)
 
-1. Knit `how_to2.Rmd` (any uncommitted files will be committed during render.)
+1. Knit `how_to2.Rmd` (any uncommitted files will be committed during render)
 
 1. Commit, push changes.
