@@ -6,13 +6,13 @@ April 05, 2019
 #### Push changes
 
 Now that we’ve completed making edits to the PR, and have saved and
-committed them, we will push them to GitHub:
+committed them, we will push them to
+    GitHub:
 
 ``` r
 usethis::pr_push()
 ```
 
-    ## ✔ Setting active project to '/Users/JoyceRobbins/usethis_demos'
     ## ✔ Checking that local branch 'nbrgraphs-patch-1' has the changes in 'nbrgraphs/patch-1'
     ## ✔ Pushing local 'nbrgraphs-patch-1' branch to 'nbrgraphs:patch-1'
     ## ✔ View PR at 'https://github.com/jtr13/usethis_demos/pull/1' or call `pr_view()`
