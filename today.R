@@ -12,3 +12,4 @@ emo::ji("snow")
 
 emo::ji("heart")
 
+emo::ji("sun")
