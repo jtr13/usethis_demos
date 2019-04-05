@@ -10,18 +10,22 @@ Notes for contributors on rendering `.Rmd` files:
 
 1. Update `usethis`.
 
-1. Knit `how_to1.Rmd` with `rmarkdown::render("how_to1.Rmd", "github_document")`
+1. Knit `how_to1.Rmd` with `rmarkdown::render("how_to1.Rmd", "github_document")`.
 
-(any uncommitted files will be committed during render)
+(Any uncommitted files will be committed during render.)
 
-1. Make a change, save and commit.  Do NOT save and commit `how_to1.md`.
+1. Make a change, save and commit.  Do NOT commit `how_to1.md`.
 
-1. `git2r::stash()`
+1. Stage `how_to1.md`.
 
-1. Switch to `master` branch
+1. `git2r::stash()`.
 
-1. `git2r::stash_pop()`  (`how_to1.md` should appear)
+1. Switch to `master` branch.
 
-1. Knit `how_to2.Rmd` by clicking Knit button (any uncommitted files will be committed during render)
+1. `git2r::stash_pop()`.  (`how_to1.md` should appear.)
+
+1. Knit `how_to2.Rmd` by clicking Knit button. (Any uncommitted files will be committed during render.)
 
 1. Commit, push changes.
+
+1. `.html` files can be deleted (not sure how to stop `render()` from creating `html` previews.)
