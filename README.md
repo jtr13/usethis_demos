@@ -20,3 +20,4 @@ Notes on rendering `.Rmd` files for contributors:
 
 6. Knit `how_to2.Rmd` (any uncommitted files will be committed during render.)
 
+7. Commit, push changes.
