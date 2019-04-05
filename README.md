@@ -10,14 +10,16 @@ Notes on rendering `.Rmd` files for contributors:
 
 1. Update `usethis`.
 
-2. Knit `how_to1.Rmd` (any uncommitted files will be committed during render.)
+1. Knit `how_to1.Rmd` (any uncommitted files will be committed during render.)
 
-3. `git2r::stash()`
+1. Make a change, save and commit.  Leave `how_to1.md` as is.
 
-4. Switch to `master` branch
+1. `git2r::stash()`
 
-5. `git2r::stash_pop()`  (`how_to1.md` should appear)
+1. Switch to `master` branch
 
-6. Knit `how_to2.Rmd` (any uncommitted files will be committed during render.)
+1. `git2r::stash_pop()`  (`how_to1.md` should appear)
 
-7. Commit, push changes.
+1. Knit `how_to2.Rmd` (any uncommitted files will be committed during render.)
+
+1. Commit, push changes.
