@@ -32,6 +32,7 @@ usethis::pr_finish()
     ## ✔ Removing remote 'nbrgraphs'
 
 And we are done\! Our edits have been [added as a commit to the pull
-request](https://github.com/jtr13/usethis_demos/pull/1). We can leave
-the pull request open for additional edits / reviews or go to GitHub and
+request](https://github.com/jtr13/usethis_demos/pull/1): our commit is
+the last one with the message “The sun is shining”. We can leave the
+pull request open for additional edits / reviews or go to GitHub and
 merge it.
