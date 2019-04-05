@@ -7,3 +7,5 @@
 emo::ji("smile")
 
 emo::ji("snow")
+
+emo::ji("heart")
