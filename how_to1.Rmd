@@ -11,6 +11,7 @@ git2r::add(path = "*")
 git2r::commit(message = "how_to1 commit before render")
 rm("how_to1.md")
 rm("how_to2.md")
+
 ```
 
 
