@@ -31,12 +31,4 @@ We'll wrap up with `pr_finish()`. (I'm terse here since **usethis** functions sp
 usethis::pr_finish()
 ```
 
-Finally, if desired, we can delete the remote that was created:
-
-```{r}
-git2r::remotes()
-git2r::remote_remove(name = "nbrgraphs")
-git2r::remotes()
-```
-
 And we are done! Our edits have been [added as a commit to the pull request](https://github.com/jtr13/usethis_demos/pull/1).  We can leave the pull request open for additional edits / reviews or go to GitHub and merge it.
