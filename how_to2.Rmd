@@ -8,7 +8,7 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 git2r::add(path = "*")
-git2r::commit(message = "need to commit before rendering")
+git2r::commit(message = "how_to2 commit before render")
 ```
 
 
