@@ -6,11 +6,11 @@ tutorials and examples for usethis functions
 [How to edit a pull request locally, part 2](https://github.com/jtr13/usethis_demos/blob/master/how_to2.md)
 
 
-Notes on rendering `.Rmd` files for contributors:
+Notes for contributors on rendering `.Rmd` files:
 
 1. Update `usethis`.
 
-1. Knit `how_to1.Rmd` (any uncommitted files will be committed during render.)
+1. Knit `how_to1.Rmd` (any uncommitted files will be committed during render)
 
 1. Make a change, save and commit.  Leave `how_to1.md` as is.
 
