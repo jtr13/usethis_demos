@@ -8,7 +8,10 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 git2r::add(path = "*")
-git2r::commit(message = "how_to1 commit before render")
+files_to_commit <- length(git2r::status()$staged)
+if (files_to_commit > 0) {
+  git2r::commit(message = "how_to1 commit before render")
+  }
 rm("how_to1.md")
 rm("how_to2.md")
 
